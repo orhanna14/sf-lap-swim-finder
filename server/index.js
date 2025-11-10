@@ -279,8 +279,12 @@ cron.schedule('0 6 * * *', () => {
 });
 
 // Initial schedule load on startup
-updateAllSchedules().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+// Start server first, then load schedules in background
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+
+  // Load schedules in background after server starts
+  updateAllSchedules().catch(error => {
+    console.error('Error loading initial schedules:', error);
   });
 });
