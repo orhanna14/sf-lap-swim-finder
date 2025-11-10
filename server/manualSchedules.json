@@ -1,0 +1,137 @@
+{
+  "comment": "Manual schedule overrides - add lap swim times here if PDF parsing fails. Use 24-hour time ranges like '7:00-8:00' or '14:30-16:00'.",
+  "schedules": {
+    "balboa": {
+      "poolId": "balboa",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["7:00-8:00", "12:30-14:00", "14:30-16:00"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["9:00-10:15", "12:30-15:00"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["7:00-8:00", "14:30-17:00"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["13:30-15:00"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["9:00-10:30", "16:00-17:30"], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "coffman": {
+      "poolId": "coffman",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["7:00-8:30", "11:30-13:00"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["11:00-13:00", "17:45-19:00"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["7:00-8:30", "14:30-16:00"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["11:30-13:00"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["16:00-17:00"], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "garfield": {
+      "poolId": "garfield",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": ["7:00-8:45", "11:00-13:00", "14:00-15:45", "16:30-18:00"], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["11:00-13:00", "14:00-15:30"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["7:00-8:45", "11:00-13:00", "14:00-15:45", "16:30-18:00"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["14:30-15:30"], "notes": "" },
+        { "days": ["FRIDAY"], "times": [], "notes": "" },
+        { "days": ["SATURDAY"], "times": [], "notes": "" },
+        { "days": ["SUNDAY"], "times": ["9:00-10:30", "12:30-14:00"], "notes": "" }
+      ]
+    },
+    "hamilton": {
+      "poolId": "hamilton",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["9:00-11:00", "11:00-12:30", "13:00-15:00"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["6:30-8:30", "9:00-11:00", "11:00-12:30", "13:00-15:30", "18:30-20:00"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["9:00-11:00"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["6:30-8:30", "9:00-11:00", "11:00-12:30", "13:00-15:30"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["9:00-10:30", "16:00-17:00"], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "mlk": {
+      "poolId": "mlk",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["9:00-11:00", "11:00-13:00", "14:15-15:15", "18:00-19:00"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["9:00-11:00", "11:00-13:00", "14:15-15:15"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["9:00-11:00", "18:00-19:00"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["9:00-11:00", "11:00-13:00", "14:15-15:15"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["7:30-8:30"], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "mission": {
+      "poolId": "mission",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["8:00-9:00", "10:30-12:00"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["8:00-9:00", "10:30-12:00"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["8:00-9:30"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["8:00-9:00", "10:30-12:00"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["10:00-11:15"], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "north-beach": {
+      "poolId": "north-beach",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": [], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": [], "notes": "" },
+        { "days": ["THURSDAY"], "times": [], "notes": "" },
+        { "days": ["FRIDAY"], "times": [], "notes": "" },
+        { "days": ["SATURDAY"], "times": [], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "rossi": {
+      "poolId": "rossi",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": ["9:00-10:00", "14:00-15:30", "18:30-19:30"], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["7:30-10:30", "18:30-19:30"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["10:45-13:30", "14:00-15:30"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["7:30-10:00", "14:30-15:30", "18:30-19:30"], "notes": "" },
+        { "days": ["FRIDAY"], "times": [], "notes": "" },
+        { "days": ["SATURDAY"], "times": [], "notes": "" },
+        { "days": ["SUNDAY"], "times": ["7:30-8:30"], "notes": "" }
+      ]
+    },
+    "sava": {
+      "poolId": "sava",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": [], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["12:00-14:30"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["6:30-9:00", "12:00-14:30", "19:00-20:30"], "notes": "" },
+        { "days": ["THURSDAY"], "times": [], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["6:30-9:00", "12:00-15:30"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["9:00-11:00", "15:30-17:00"], "notes": "" },
+        { "days": ["SUNDAY"], "times": [], "notes": "" }
+      ]
+    },
+    "brisbane": {
+      "poolId": "brisbane",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": ["7:00-9:45", "11:00-13:00", "16:30-17:45", "18:00-19:30"], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["7:00-9:45", "10:00-13:00", "16:30-19:30"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["7:00-9:45", "11:00-13:00", "16:30-17:45", "18:00-19:30"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["7:00-9:45", "10:00-13:00", "16:30-19:30"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["7:00-9:45", "11:00-13:00", "16:30-17:45", "18:00-19:30"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["9:00-12:15", "12:30-15:00"], "notes": "" },
+        { "days": ["SUNDAY"], "times": ["9:00-11:15", "12:30-15:00"], "notes": "" }
+      ]
+    },
+    "burlingame": {
+      "poolId": "burlingame",
+      "lapSwimSessions": [
+        { "days": ["MONDAY"], "times": ["5:30-8:00", "11:00-13:15", "20:00-21:00"], "notes": "" },
+        { "days": ["TUESDAY"], "times": ["5:30-8:00", "11:00-13:15", "20:00-21:00"], "notes": "" },
+        { "days": ["WEDNESDAY"], "times": ["5:30-8:00", "11:00-13:15", "20:00-21:00"], "notes": "" },
+        { "days": ["THURSDAY"], "times": ["5:30-8:00", "11:00-13:15", "20:00-21:00"], "notes": "" },
+        { "days": ["FRIDAY"], "times": ["5:30-8:00", "11:00-13:15", "20:00-21:00"], "notes": "" },
+        { "days": ["SATURDAY"], "times": ["7:00-8:30", "12:00-16:00"], "notes": "" },
+        { "days": ["SUNDAY"], "times": ["7:00-16:00"], "notes": "" }
+      ]
+    }
+  }
+}
