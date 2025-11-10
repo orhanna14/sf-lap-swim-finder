@@ -49,7 +49,7 @@ const pools = [
     detailsUrl: 'https://sfrecpark.org/Facilities/Facility/Details/Mission-Community-Pool-217',
   },
   {
-    id: 'northbeach',
+    id: 'north-beach',
     name: 'North Beach Pool',
     city: 'San Francisco',
     address: 'Lombard & Mason, San Francisco, CA 94133',
