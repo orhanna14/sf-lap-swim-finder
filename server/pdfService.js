@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { PDFParse } = require('pdf-parse');
+const pdf = require('pdf-parse');
 const NodeCache = require('node-cache');
 
 // Cache PDFs for 1 week (604800 seconds)
@@ -19,13 +19,16 @@ async function fetchAndParsePDF(url) {
 
     console.log(`Fetching PDF from ${url}`);
 
-    // Create parser with URL
-    const parser = new PDFParse({ url });
-    const data = await parser.getText();
+    // Fetch PDF buffer from URL
+    const response = await axios.get(url, { responseType: 'arraybuffer' });
+    const buffer = Buffer.from(response.data);
+
+    // Parse PDF
+    const data = await pdf(buffer);
 
     const result = {
       text: data.text,
-      numPages: data.numPages || 0,
+      numPages: data.numpages || 0,
       info: data.info || {},
     };
 
